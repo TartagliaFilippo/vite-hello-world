@@ -1,12 +1,15 @@
 <script>
 import AppImage from "./components/AppImage.vue";
+
 export default {
   data() {
     return {
       title: "La mia prima app con Vite!",
     };
   },
-  components: { AppImage },
+  components: {
+    AppImage: AppImage,
+  },
 };
 </script>
 
